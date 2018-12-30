@@ -1,0 +1,20 @@
+---
+label: home
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: titulo
+  label: TITULO
+  config:
+    required: true
+- type: file
+  name: imagen_inicial
+  label: IMAGEN INICIAL
+  default: "/v1546188799/IMG_9341.jpg"
+- type: textarea
+  name: texto
+  label: TEXTO
+- type: blocks
+  name: servicios
+  label: SERVICIOS
