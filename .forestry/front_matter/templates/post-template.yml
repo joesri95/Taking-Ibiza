@@ -19,3 +19,5 @@ fields:
   name: thumbnail
   label: Thumbnail
   description: Photo
+- type: include
+  template: carrousel
