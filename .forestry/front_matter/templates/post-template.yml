@@ -1,0 +1,21 @@
+---
+label: Post Template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Title
+  name: title
+  description: Post title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: Creation date
+  config:
+    required: true
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: Photo
